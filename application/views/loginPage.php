@@ -86,11 +86,9 @@
     <div class="row gx-lg-5 align-items-center mb-5">
       <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
 	<img src="<?= base_url('/assets/images/logo.png');?>" style="width: 100%; max-width: 400px"> 
-        <p class="mb-4 mt-3 opacity-70" style="color: hsl(218, 81%, 85%)">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Temporibus, expedita iusto veniam atque, magni tempora mollitia
-          dolorum consequatur nulla, neque debitis eos reprehenderit quasi
-          ab ipsum nisi dolorem modi. Quos?
+        <p class="mb-4 mt-3 opacity-70" style="color: hsl(218, 81%, 85%);">
+		Get Moving with Movers!<br>
+		The #1, most trusted web-based application for taxi hailing.
         </p>
       </div>
 
