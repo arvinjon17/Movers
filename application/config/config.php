@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'http://localhost:8080/Movers/';
-$config['base_url'] = 'core2.moverstaxi.com';
+$config['base_url'] = 'https://core2.moverstaxi.com/';
 
 
 /*
