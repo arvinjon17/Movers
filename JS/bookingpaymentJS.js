@@ -1,5 +1,5 @@
 //var site_url = 'http://localhost:8080/Movers/index.php/';
-var site_url = 'https://server7.indevfinite-server.com:8090/preview/Movers.com/index.php';
+var site_url = 'https://server7.indevfinite-server.com:8090/preview/core2sub.moverstaxi.com/index.php';
 var totalfare = 0;
 var recordid = 0;
 
