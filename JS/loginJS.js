@@ -1,5 +1,5 @@
-//var site_url = 'http://localhost:8080/Movers/index.php/';
-var site_url = 'https://server7.indevfinite-server.com:8090/preview/core2sub.moverstaxi.com/index.php';
+var site_url = 'http://localhost:8080/Movers/index.php/';
+//var site_url = 'https://server7.indevfinite-server.com:8090/preview/core2sub.moverstaxi.com/index.php';
 
 toastr.options = {
     "closeButton": false,
@@ -63,10 +63,10 @@ toastr.options = {
         return false;
     }
 
-    // alert(site_url+"loginController/process_login");
+    // alert(site_url+"Login_controller/process_login");
 
       $.ajax({
-        url: site_url + "loginController/process_login",
+        url: site_url + "Login_controller/process_login",
         method: "POST",
         dataType: "JSON",
         data: {

@@ -1,5 +1,5 @@
-//var site_url = 'http://localhost:8080/Movers/index.php/';
-var site_url = 'https://server7.indevfinite-server.com:8090/preview/core2sub.moverstaxi.com/index.php';
+var site_url = 'http://localhost:8080/Movers/index.php/';
+//var site_url = 'https://server7.indevfinite-server.com:8090/preview/core2sub.moverstaxi.com/index.php';
 
 $('#logoutbtn').click(function () {
     logout(1);
@@ -18,7 +18,7 @@ function logout(initiate = 0){
             success: function (res) {
         
                 if(res == "1"){
-                    window.location.href = site_url + "loginController/index";
+                    window.location.href = site_url + "Login_controller/index";
                 }else{
                     alert('error');
                 }

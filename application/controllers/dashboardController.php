@@ -14,7 +14,7 @@ class dashboardController extends CI_Controller {
 	{
 
 		if (empty($this->session->userdata('user_id'))) {
-			redirect(site_url('loginController'));
+			redirect(site_url('Login_controller'));
 		}else{
 
 			$usercount = $this->getusercount();
@@ -34,7 +34,7 @@ class dashboardController extends CI_Controller {
 			echo json_encode($initiate);
 		}else{
 			$this->session->sess_destroy();
-			redirect(site_url("loginController/index"));
+			redirect(site_url("Login_controller/index"));
 		}
     	
     }

@@ -126,7 +126,7 @@
 
 						<div class="mt-5 text-start">
 							<span>Have an account already?</span><br>
-							<a href="<?= site_url('loginController')?>">Login</a>
+							<a href="<?= site_url('Login_controller')?>">Login</a>
 						</div>
 				
 				</div>

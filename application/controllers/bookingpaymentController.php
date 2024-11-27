@@ -15,7 +15,7 @@ class bookingpaymentController extends CI_Controller {
 	{
 
 		if (empty($this->session->userdata('user_id'))) {
-			redirect(site_url('loginController'));
+			redirect(site_url('Login_controller'));
 		}else{
 			$this->load->view('BookingPaymentMainte/bookingpayment');
 		}

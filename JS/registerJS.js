@@ -1,5 +1,5 @@
-//var site_url = 'http://localhost:8080/Movers/index.php/';
-var site_url = 'https://server7.indevfinite-server.com:8090/preview/core2sub.moverstaxi.com/index.php';
+var site_url = 'http://localhost:8080/Movers/index.php/';
+//var site_url = 'https://server7.indevfinite-server.com:8090/preview/core2sub.moverstaxi.com/index.php';
 
 toastr.options = {
     "closeButton": false,
@@ -115,7 +115,7 @@ $('#registerbtn').click(function () {
         success: function (res) {
     
             if(res == 'update'){
-                window.location.href = site_url + "loginController/index?registration=success";
+                window.location.href = site_url + "Login_controller/index?registration=success";
             }else if(res == 'duplicateemail') {
                 toastr.error('Registered email found. <br> Please use a different email.', 'Error');
                 document.getElementById('email').style.borderColor = '#ed7987';
